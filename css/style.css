@@ -4,7 +4,8 @@
 
 /* ---------------- RESPONSIVE DESIGN ----------------- */
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -58,6 +59,11 @@ h1{
 h2{
 	font-family: 'Overpass', sans-serif;
   	font-size: 18px;
+}
+
+h3{
+	font-family: 'Overpass', sans-serif;
+  	font-size: 16px;
 }
 
 a:link{
